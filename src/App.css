@@ -1,38 +1,134 @@
-.App {
+body {
+  font-size: 15px;
+  line-height: 24px;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  background: #F5F5F5;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  height: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #000;
+}
+
+img {
+  width: 100%;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+fieldset {
+  border: 0 none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.no-padding {
+  padding: 0
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bg-dark {
+  background-color: #212b36;
+}
+
+.section-title {
   text-align: center;
+  margin-bottom: 60px;
+}
+.section-title-1 h2 {
+  margin-top: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #212b36;
+  text-align: center;
+  letter-spacing: 2px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title h2 {
+  margin-top: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #f5f5f5;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-title p {
+  font-weight: 300;
+}
+.title-border{
+  background-color:#41b548;
+  height: 4px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-custom {
+  background-color:#41b548;
+  border: 1px solid #41b548;
+  color:white;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-custom:hover {
+  background-color: #1f2124;
+  border-color: #1f2124;
+  color: #ffffff;
+}
+.about-h4{
+  padding-top: 10px;
+  border:1px solid;
+  padding-bottom: 11px;
+  margin-bottom: 5px;
   color: white;
+  background-color:#41b548; 
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-m-t-0{
+  margin-top:0px;
 }
